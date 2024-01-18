@@ -18,7 +18,7 @@ describe('DOM', () => {
 		assert.equal(typeof cardImgHeight, 'number');
 	});
 
-	it("should have an author name element that equals 'Michelle Appleton' word", () => {
+	it("should have an author name element that equals 'Michelle Appleton'", () => {
 		const cardAuthorNameEl = document.querySelector('.card__author-name');
 		const cardAuthorName = cardAuthorNameEl.textContent.trim();
 
