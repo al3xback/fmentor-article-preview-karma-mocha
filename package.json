@@ -1,8 +1,7 @@
 {
 	"name": "fmentor-article-preview-karma-mocha",
+	"private": true,
 	"version": "1.0.0",
-	"description": "article preview component using karma and mocha",
-	"main": "index.js",
 	"scripts": {
 		"sass-dev": "sass --watch scss/main.scss css/main.css",
 		"sass-prod": "sass scss/main.scss css/main.css --style=compressed --no-source-map",
